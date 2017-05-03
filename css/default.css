@@ -1,13 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
-
-<<<<<<< Updated upstream
 img.thumbnail
 {
 	background-color: #333333;
 	border: solid 3px #333333;
 }
-=======
 /* Global HTML */
 
 html {
@@ -23,7 +20,7 @@ body {
 /* Global Header */
 
 h1 {
-	font-size 2.5em;
+	font-size: 2.5em;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
@@ -32,8 +29,45 @@ h1 {
 h2 {
 	font-size: 1.5em;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+/* Global Paragraphs */
+
+p {
+	line-height: 1.25em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 1.25em;
+}
+/* Header */
+
+header {
+	display: block;
+	text-align: center;
+	 
+	}
+
+/* Navigation */
+
+nav {
+	display: block;
+	height: 2.8em;
+	background: #FFFFFF;
+	text-align: center;
+}
+
+nav ul {
+	display: block;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0em 0.2em 0em 0.2em;
+}
+
+nav ul li a:hover {
 	
 }
 
-/* Global
->>>>>>> Stashed changes
+nav ul li a.active {
+	
+}

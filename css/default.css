@@ -1,6 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
 
+<<<<<<< Updated upstream
 img.thumbnail
 {
 	background-color: #333333;
 	border: solid 3px #333333;
 }
+=======
+/* Global HTML */
+
+html {
+	background: #F8F9FF
+}
+
+/* Global Body */
+
+body {
+	background: #FFFFFF
+}
+
+/* Global Header */
+
+h1 {
+	font-size 2.5em;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+/* Global Header 2 */
+
+h2 {
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+/* Global
+>>>>>>> Stashed changes

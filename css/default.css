@@ -1,5 +1,28 @@
+
 @charset "UTF-8";
+
 /* CSS Document */
+
+.float-left
+{
+	float: left;
+}
+
+.float-right
+{
+	float: right;
+}
+
+body, ul, ol, li, p, div, span, a, form, fieldset, label, img, select, option
+{
+	font-family: Calibri;
+	color: #222222;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
 img.thumbnail
 {
 	background-color: #333333;
@@ -42,13 +65,6 @@ p {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	padding: 1.25em;
 }
-/* Header */
-
-header {
-	display: block;
-	text-align: center;
-	 
-	}
 
 /* Navigation */
 
@@ -63,20 +79,60 @@ nav {
 
 div.header
 {
-	height: 200px;
-	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100%;
-	background-color: #DDDDDD;
-	box-shadow: 0px 0px 5px #000000;
-	opacity: 0.95;
-	filter: alpha(opacity=95);
+	background-color: #111111;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	box-shadow: 0 0 10px #111111;
+	opacity: 0.9;
+	padding: 15px 0px;
 }
 
-div.header a
+div.header-container
 {
-	font-size: ;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li.header-nav-item
+{
+	list-style: none;
+	float: left;
+}
+
+li.header-nav-item a
+{
+	padding: 10px 10px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #CCCCCC;
+	font-weight: bold;
+}
+
+li.header-nav-item a:hover
+{
+	border-bottom: solid 2px #990000;
+	color: #EEEEEE;
+}
+
+div.content
+{
+	width: 950px;
+	min-height: 1500px;
+	padding-top: 65px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.content-box
+{
+	border: solid 1px #AAAAAA;
+	background-color: #FDFDFD;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #CCCCCC;
+	padding: 20px;
 }
 
 nav ul {

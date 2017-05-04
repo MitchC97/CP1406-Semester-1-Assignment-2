@@ -8,3 +8,11 @@
 
 ### Photos
  * All photos must not exceed 1000 pixels.
+
+## Sources
+
+### Logo
+ * *src/logo.fw.png* is the main logo graphic. Requires Adobe Fireworks.
+
+### Flowchart
+ * *src/flowchart.fw.png*. Requires Adobe Fireworks.

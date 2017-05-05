@@ -1,5 +1,12 @@
 # CP1406-Semester-1-Assignment-2
 
+## Milestone 1
+ * Project Plan: *plan.html*
+ * Comprehensive Masters:
+   * Home Page: *home.html* (later renamed to *index.html*)
+   * People/Artists Page: *people.html*
+   * Single Artist Page: *people_adam_lopez.html*
+
 ## Images
  * All thumbnails must be JPG, quality 80.
 

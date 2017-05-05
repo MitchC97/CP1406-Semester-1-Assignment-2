@@ -111,7 +111,8 @@ li.header-nav-item a
 	font-weight: bold;
 }
 
-li.header-nav-item a:hover
+li.header-nav-item a:hover,
+li.header-nav-item a.hovered
 {
 	border-bottom: solid 2px #990000;
 	color: #666666;
@@ -126,7 +127,33 @@ div.content
 	margin-right: auto;
 }
 
+div.nav-box
+{
+	border: solid 1px #AAAAAA;
+	background-color: #EEEEEE;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #CCCCCC;
+	padding: 20px;
+}
+
+div.nav-box p,
+div.nav-box a
+{
+	color: #990000;
+	font-weight: bold;
+	font-family: Calibri, Verdana;
+}
+
 div.content-box
+{
+	border: solid 1px #AAAAAA;
+	background-color: #FDFDFD;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #CCCCCC;
+	padding: 20px;
+}
+
+div.sub-content-box
 {
 	border: solid 1px #AAAAAA;
 	background-color: #FDFDFD;

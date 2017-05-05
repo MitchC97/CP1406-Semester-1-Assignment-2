@@ -28,42 +28,41 @@ img.thumbnail
 	background-color: #333333;
 	border: solid 3px #333333;
 }
-/* Global HTML */
 
-html {
-	background: #F8F9FF
-}
 
 /* Global Body */
 
 body {
 	background: #FFFFFF;
 	padding: 0px;
-	margin-top: 220px;
+	margin-top: 180px;
+	min-width: 1020px;
 }
 
-/* Global Header */
+/* Global Headers */
+
+h1, h2, h3, p
+{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
 
 h1 {
 	font-size: 2.5em;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	
+	color: #990000;
 }
-
-/* Global Header 2 */
 
 h2 {
 	font-size: 1.5em;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	padding-left: 0.8em;
+}
+
+h3 {
+	font-size: 1.0em;
 }
 
 /* Global Paragraphs */
 
 p {
 	line-height: 1.25em;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	padding: 1.25em;
 }
 
 /* Navigation */
@@ -80,13 +79,14 @@ nav {
 div.header
 {
 	width: 100%;
-	background-color: #111111;
+	height: 200px;
+	background-color: #F7F7F7;
 	position: fixed;
 	top: 0px;
 	left: 0px;
 	box-shadow: 0 0 10px #111111;
-	opacity: 0.9;
-	padding: 15px 0px;
+	opacity: 0.95;
+	padding: 0;
 }
 
 div.header-container
@@ -107,14 +107,14 @@ li.header-nav-item a
 	padding: 10px 10px;
 	font-size: 16px;
 	text-decoration: none;
-	color: #CCCCCC;
+	color: #333333;
 	font-weight: bold;
 }
 
 li.header-nav-item a:hover
 {
 	border-bottom: solid 2px #990000;
-	color: #EEEEEE;
+	color: #666666;
 }
 
 div.content

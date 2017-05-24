@@ -14,7 +14,7 @@
  * All thumbnails must be 250 pixels wide, and height remaining at original percentage in relation to width, jpg quality 80.
 
 ### Sponsor Thumbnails
- * All thumbnails must be 150 pixels, and height remaining at original percentage in relation to width, jpg quality 80.
+ * All thumbnails must be 150 pixels wide, and height remaining at original percentage in relation to width, jpg quality 80.
 
 ### Photos
  * All photos must not exceed 1000 pixels, jpg quality 80.

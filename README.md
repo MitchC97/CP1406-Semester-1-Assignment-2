@@ -70,3 +70,9 @@
 	Events linking to galleries
 
 - Site map .png updated with complete page mappings
+
+###PROBLEMS###
+
+- About us
+	When slide change arrow is clicked, page scroll status is reset
+

@@ -127,6 +127,15 @@ div.content
 	margin-right: auto;
 }
 
+div.content-sponsor-table
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
 div.nav-box
 {
 	border: solid 1px #AAAAAA;
@@ -185,6 +194,8 @@ img.portrait
 	box-shadow: 0 0 15px #CCCCCC;
 }
 
+
+/* Sponsors Table */
 
 
 

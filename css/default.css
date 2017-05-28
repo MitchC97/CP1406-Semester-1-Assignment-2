@@ -1,36 +1,15 @@
 
-@charset "UTF-8";
-
-/* CSS Document */
-
-.float-left
-{
-	float: left;
-}
-
-.float-right
-{
-	float: right;
-}
+@import url('generic.css');
 
 body, ul, ol, li, p, div, span, a, form, fieldset, label, img, select, option
 {
-	font-family: Calibri;
+	font-family: "Calibri", "Tahoma", "Verdana", "Arial";
 	color: #222222;
 	font-size: 14px;
 	padding: 0;
 	margin: 0;
 	border: 0;
 }
-
-img.thumbnail
-{
-	background-color: #333333;
-	border: solid 3px #333333;
-}
-
-
-/* Global Body */
 
 body {
 	background: #FFFFFF;
@@ -39,16 +18,18 @@ body {
 	min-width: 1020px;
 }
 
-/* Global Headers */
-
 h1, h2, h3, p
 {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
+h1, h2, h3
+{
+	color: #990000;
+}
+
 h1 {
 	font-size: 2.5em;
-	color: #990000;
 }
 
 h2 {
@@ -59,64 +40,40 @@ h3 {
 	font-size: 1.0em;
 }
 
-/* Global Paragraphs */
-
 p {
 	line-height: 1.25em;
+	color: #111111;
 }
 
-/* Navigation */
+a
+{
+	color: #666666;
+}
 
-nav {
-	display: block;
-	height: 2.8em;
-	background: #FFFFFF;
-	text-align: center;
+a:hover
+{
+	color: #111111;
+}
+
+@import url('header.css');
+
+div.sponsor-thumb
+{
+	width: 150px;
+	height: 150px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 5px #CCCCCC;
+	border: solid 1px #666666;
+	margin: 10px;
+}
+
+img.thumbnail
+{
+	background-color: #333333;
+	border: solid 3px #333333;
 }
 
 /* Banner Header */
-
-div.header
-{
-	width: 100%;
-	height: 210px;
-	background-color: #F7F7F7;
-/*	position: fixed;*/
-	top: 0px;
-	left: 0px;
-	box-shadow: 0 0 10px #111111;
-	opacity: 0.95;
-	padding: 0;
-}
-
-div.header-container
-{
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-li.header-nav-item
-{
-	list-style: none;
-	float: left;
-}
-
-li.header-nav-item a
-{
-	padding: 10px 10px;
-	font-size: 16px;
-	text-decoration: none;
-	color: #333333;
-	font-weight: bold;
-}
-
-li.header-nav-item a:hover,
-li.header-nav-item a.hovered
-{
-	border-bottom: solid 2px #990000;
-	color: #666666;
-}
 
 div.content
 {
@@ -201,12 +158,6 @@ img.portrait
 
 
 
-
-iframe{
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
 
 
 

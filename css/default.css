@@ -1,5 +1,6 @@
 
 @import url('generic.css');
+@import url('header.css');
 
 body, ul, ol, li, p, div, span, a, form, fieldset, label, img, select, option
 {
@@ -55,8 +56,6 @@ a:hover
 	color: #111111;
 }
 
-@import url('header.css');
-
 div.sponsor-thumb
 {
 	width: 150px;
@@ -91,7 +90,13 @@ div.content-sponsor-table
 	margin-right: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	border: solid 2px;
 	
+}
+
+div.content-sponsor-table tr td
+{
+	border: solid 5px;
 }
 div.nav-box
 {

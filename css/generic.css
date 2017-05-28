@@ -11,10 +11,13 @@ form
     padding: 0;
 }
 
-iframe{
+iframe
+{
     margin: 0;
     padding: 0;
     border: 0;
+    width: 100%;
+    height: 100%;
 }
 
 a
@@ -56,4 +59,14 @@ div.table-cell
 .float-right
 {
     float: right;
+}
+
+.shadow-small
+{
+    box-shadow: 0 0 7px #666666;
+}
+
+.shadow-large
+{
+    box-shadow: 0 0 15px #666666;
 }

@@ -2,9 +2,8 @@
 div.header
 {
     width: 100%;
-    height: 210px;
     background-color: #F7F7F7;
-    /*	position: fixed;*/
+    position: fixed;
     top: 0;
     left: 0;
     box-shadow: 0 0 10px #111111;
@@ -39,4 +38,9 @@ li.header-nav-item a.hovered
 {
     border-bottom: solid 2px #990000;
     color: #666666;
+}
+
+.header-links
+{
+    height: 30px;
 }

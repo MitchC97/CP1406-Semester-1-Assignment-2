@@ -1,6 +1,5 @@
 
 @import url('generic.css');
-@import url('header.css');
 
 body, ul, ol, li, p, div, span, a, form, fieldset, label, img, select, option
 {
@@ -15,8 +14,6 @@ body, ul, ol, li, p, div, span, a, form, fieldset, label, img, select, option
 body {
 	background: #FFFFFF;
 	padding: 0px;
-	margin-top: 180px;
-	min-width: 1020px;
 }
 
 h1, h2, h3, p
@@ -56,14 +53,19 @@ a:hover
 	color: #111111;
 }
 
-div.sponsor-thumb
+div.content
 {
-	width: 150px;
-	height: 150px;
-	background-color: #FFFFFF;
-	box-shadow: 0 0 5px #CCCCCC;
-	border: solid 1px #666666;
-	margin: 10px;
+	min-height: 1500px;
+}
+
+div.content-box
+{
+	border: solid 1px #AAAAAA;
+	background-color: #FDFDFD;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #666666;
+	padding: 20px;
+	margin: 20px;
 }
 
 img.thumbnail
@@ -72,32 +74,6 @@ img.thumbnail
 	border: solid 3px #333333;
 }
 
-/* Banner Header */
-
-div.content
-{
-	width: 950px;
-	min-height: 1500px;
-	padding-top: 65px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-div.content-sponsor-table
-{
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border: solid 2px;
-	
-}
-
-div.content-sponsor-table tr td
-{
-	border: solid 5px;
-}
 div.nav-box
 {
 	border: solid 1px #AAAAAA;
@@ -107,21 +83,11 @@ div.nav-box
 	padding: 20px;
 }
 
-div.nav-box p,
-div.nav-box a
+div.navigation
 {
 	color: #990000;
 	font-weight: bold;
 	font-family: Calibri, Verdana;
-}
-
-div.content-box
-{
-	border: solid 1px #AAAAAA;
-	background-color: #FDFDFD;
-	border-radius: 3px;
-	box-shadow: 0 0 5px #CCCCCC;
-	padding: 20px;
 }
 
 div.sub-content-box
@@ -156,3 +122,26 @@ img.portrait
 	box-shadow: 0 0 15px #CCCCCC;
 }
 
+div.sponsor-thumb
+{
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px #EEEEEE;
+    border: solid 1px #FFFFFF;
+    border-radius: 3px;
+    margin: 10px;
+    float: left;
+}
+
+div.footer p{
+    color: #FFFFFF;
+}
+div.footer
+{
+    background-color: #111111;
+    box-shadow: 0 0 10px #000000;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}

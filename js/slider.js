@@ -1,5 +1,5 @@
 
-jQuery(document).ready(function ($) {
+$(document).ready(function () {
 
     $('#checkbox').change(function(){
         setInterval(function () {
@@ -45,3 +45,7 @@ jQuery(document).ready(function ($) {
     });
 
 });
+
+
+
+

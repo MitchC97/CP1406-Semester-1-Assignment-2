@@ -23,6 +23,7 @@ iframe
 a
 {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 a:hover
@@ -63,10 +64,12 @@ div.table-cell
 
 .shadow-small
 {
-    box-shadow: 0 0 7px #666666;
+    margin: 8px;
+    box-shadow: 0 0 8px #666666;
 }
 
 .shadow-large
 {
-    box-shadow: 0 0 15px #666666;
+    margin: 16px;
+    box-shadow: 0 0 16px #666666;
 }

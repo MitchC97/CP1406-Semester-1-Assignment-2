@@ -12,7 +12,6 @@
 	<script src="js/header.js"></script>
 
 	<link href="css/slider.css" rel="stylesheet" type="text/css">
-	<script src="js/slider.js"></script>
 </head>
 
 <body>
@@ -64,17 +63,21 @@
 	<!-- SLIDER SECTION ----------------------------------------------------------------------------------------------->
 
 	<div class="content-box">
-		<div id="slider">
-			<a class="control_next" onclick="moveRight();">&raquo;</a>
-			<ul>
-				<li>Slide 1</li>
-				<li>SLIDE 2</li>
-				<li>SLIDE 3</li>
-				<li>SLIDE 4</li>
-			</ul>
-			<a class="control_prev">&laquo;</a>
+		<img class="slide" src="img/slides/concert_girls.jpg">
+		<img class="slide" src="img/slides/concert_raymond.jpg">
+		<img class="slide" src="img/slides/concert_violin.jpg">
+		<img class="slide" src="img/slides/concert_maguire.jpg">
+		<div style="width:100%;">
+			<div class="sliderBtnL" onclick="slider_next(-1)">&#10094;</div>
+			<div class="sliderBtnR" onclick="slider_next(1)">&#10095;</div>
+			<span class="slideBar" onclick="slider_curr(1)"></span>
+			<span class="slideBar" onclick="slider_curr(2)"></span>
+			<span class="slideBar" onclick="slider_curr(3)"></span>
+			<span class="slideBar" onclick="slider_curr(4)"></span>
 		</div>
 	</div>
+
+	<script src="js/slider.js"></script>
 
 	<!-- CONTACT SECTION ---------------------------------------------------------------------------------------------->
 

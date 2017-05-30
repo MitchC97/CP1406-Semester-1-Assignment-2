@@ -12,13 +12,6 @@ div.header
     z-index: 1;
 }
 
-div.header-container
-{
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 div.header-links
 {
     height: 40px;
@@ -42,7 +35,7 @@ div.header-links a
     font-size: 20px;
     text-decoration: none;
     color: #333333;
-    font-weight: bold;
+    text-transform: uppercase;
 }
 
 div.header-links a:hover,
@@ -50,6 +43,13 @@ div.header-links a.hovered
 {
     border-bottom: solid 2px #990000;
     color: #666666;
+}
+
+div.header-menu {
+    display: none;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 div.header-menu ul {
@@ -66,20 +66,12 @@ div.header-menu li a {
     text-decoration: none;
 }
 
-div.header-menu {
-    display: none;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 20px;
-}
-
 div.header-drop {
     position: absolute;
     display: none;
     border: solid 1px #666666;
     border-radius: 3px;
     min-width: 150px;
-    padding: 10px;
     background-color: #EEEEEE;
 }
 

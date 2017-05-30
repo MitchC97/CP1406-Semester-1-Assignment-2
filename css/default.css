@@ -1,7 +1,7 @@
 
 @import url('generic.css');
 
-body, ul, ol, li, p, div, span, a, form, fieldset, label, img, select, option
+body, fieldset, label, select, option
 {
 	font-family: "Calibri", "Tahoma", "Verdana", "Arial";
 	color: #222222;
@@ -13,7 +13,6 @@ body, ul, ol, li, p, div, span, a, form, fieldset, label, img, select, option
 
 body {
 	background: #FFFFFF;
-	padding: 0px;
 }
 
 h1, h2, h3, p
@@ -21,26 +20,58 @@ h1, h2, h3, p
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
+@font-face {
+	font-family: bro-header;
+	src: url('zenone.bold.ttf');
+}
+
 h1, h2, h3
 {
-	color: #990000;
+	font-family: bro-header;
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 35px;
+	color: #990000;
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 25px;
+	color: #4a6fff;
 }
 
 h3 {
-	font-size: 1.0em;
+	font-size: 20px;
+	color: #222222;
 }
 
 p {
-	line-height: 1.25em;
+	font-size: 16px;
+	line-height: 20px;
 	color: #111111;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+@media screen and (max-width: 400px) {
+
+	h1 {
+		font-size: 20px;
+		color: #990000;
+	}
+
+	h2 {
+		font-size: 16px;
+		color: #4a6fff;
+	}
+
+	h3 {
+		font-size: 13px;
+		color: #222222;
+	}
+
+	p{
+		font-size: 12px;
+	}
 }
 
 a

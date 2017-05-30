@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Barrier Reef Orchestra - Contact Us/title>
+    <title>Barrier Reef Orchestra - Contact Us</title>
 
     <link href="css/default.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -55,9 +55,58 @@
     <!-- NAVIGATION SECTION ------------------------------------------------------------------------------------------->
 
     <div class="content-box">
-        <b><a href="index.html" title="Barrier Reef Orchestra">BRO</a> / Instruments &raquo;</b>
+        <b><a href="index.html" title="Barrier Reef Orchestra">BRO</a> / Contact Us &raquo;</b>
     </div>
 
     <!-- THE STUFF ---------------------------------------->
 
     <div class="content-box">
+        <h1>Contact Us</h1>
+
+        <form action="contact_submit.html">
+        <table style="width: 100%;">
+            <tr>
+                <td style="width: 300px;">
+                    <p><strong>Name:</strong></p>
+                </td>
+                <td>
+                    <p><input type="text" name="contact_name" style="width: 300px;" /></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><strong>Email:</strong></p>
+                </td>
+                <td>
+                    <p><input type="text" name="contact_email" style="width: 300px;" /></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><strong>Message:</strong></p>
+                </td>
+                <td>
+                    <p><textarea name="contact_message" cols="10" style="width: 400px; height: 100px;"></textarea></p>
+                </td>
+            </tr>
+        </table>
+            <p><button type="submit" name="contact_submit">Contact Us Now</button></p>
+        </form>
+    </div>
+
+
+    <!-- FOOTER SECTION --------------------------------------------------------------------------------------------------->
+
+    <div class="footer">
+        <p>Copyright Barrier Reef Orchestra, 2017. All rights reserved.</p>
+
+        <div class="footer-icon">
+            <a href="https://www.facebook.com/nqorchestra/"><img src="img/facebook-icon.png">	</a><a href="mailto:brotownsville@gmail.com"><img src="img/Mail-icon.png" /></a>
+            <div class="footer-icon"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

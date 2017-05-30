@@ -99,6 +99,32 @@ div.content-box
 	margin: 20px;
 }
 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.content-sponsor-table
+{
+	
+}
+
 img.thumbnail
 {
 	background-color: #333333;
@@ -165,9 +191,11 @@ div.sponsor-thumb
     float: left;
 }
 
-div.footer p{
+div.footer p
+{
     color: #FFFFFF;
 }
+
 div.footer
 {
     background-color: #111111;
@@ -175,4 +203,10 @@ div.footer
     padding: 10px;
     overflow: hidden;
     text-align: center;
+}
+
+div.footer-icon
+{
+	height: auto;
+	width: auto;
 }

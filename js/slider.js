@@ -1,49 +1,27 @@
 
-$(document).ready(function () {
+var slider_id = 1;
+slider_show(slider_id);
 
-    var autoMoveTime = 3000;
+function slider_next(slider_nextId){
+    slider_show(slider_id += slider_nextId);
+}
 
-    setInterval(function () {
-        moveRight();
-    }, autoMoveTime);
+function slider_curr(slider_idCurr){
+    slider_show(slider_id = slider_idCurr);
+}
 
-    var slideCount = $('#slider ul li').length;
-    var slideWidth = $('#slider ul li').width();
-    var slideHeight = $('#slider ul li').height();
-    var slideInnerWidth = slideCount * slideWidth;
-
-
-    $('#slider').css({ width: slideWidth, height: slideHeight });
-
-    $('#slider ul').css({ width: sliderInnerWidth, marginLeft: - slideWidth });
-
-    $('#slider ul li:last-child').prependTo('#slider ul');
-
-    function moveLeft() {
-        $('#slider ul').animate({
-            left: + slideWidth
-        }, 200, function () {
-            $('#slider ul li:last-child').prependTo('#slider ul');
-            $('#slider ul').css('left', '');
-        });
-    };
-
-    function moveRight() {
-        $('#slider ul').animate({
-            left: - slideWidth
-        }, 200, function () {
-            $('#slider ul li:first-child').appendTo('#slider ul');
-            $('#slider ul').css('left', '');
-        });
-    };
-
-    $('a.control_prev').click(function () {
-        moveLeft();
-    });
-
-    $('a.control_next').click(function () {
-        moveRight();
-    });
-
-});
-
+function slider_show(slider_idShow){
+    var numIds;
+    var slider_div = $(".slide");
+    var slider_box = $(".slideBar");
+    if (slider_idShow > slider_div.length) {slider_id = 1}
+    if (slider_idShow < 1) {slider_id = slider_div.length}
+    for (numIds = 0; numIds < slider_div.length; numIds++) {
+        slider_div[numIds].style.display = "none";
+    }
+    for (numIds = 0; numIds < slider_box.length; numIds++) {
+        slider_box[numIds].className = slider_box[numIds].className.replace(" slideBarOn", "");
+    }
+    slider_div[slider_id-1].style.display = "block";
+    slider_box[slider_id-1].className += " slideBarOn";
+}

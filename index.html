@@ -12,7 +12,6 @@
 	<script src="js/header.js"></script>
 
 	<link href="css/slider.css" rel="stylesheet" type="text/css">
-	<script src="js/slider.js"></script>
 </head>
 
 <body>
@@ -40,7 +39,9 @@
 				<li><a href="index.html" class="hovered">Home</a></li>
 				<li><a href="events.html">Events</a></li>
 				<li><a href="people.html">People</a></li>
-				<li><a href="#">Gallery</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="sponsors.html">Sponsors</a></li>
+				<li><a href="membership_application.html">Join the BRO!</a></li>
 			</ul>
 			<ul class="float-right">
 				<li><a href="about.html" >About Us</a></li>
@@ -57,24 +58,26 @@
 
 	<!-- NAVIGATION SECTION ------------------------------------------------------------------------------------------->
 
-	<div class="content-box">
-		<b><a href="index.html" title="Barrier Reef Orchestra">BRO</a> / About Us &raquo;</b>
-	</div>
+	<div class="content-box"><strong><a href="index.html" title="Barrier Reef Orchestra">BRO</a> / Home &raquo;</strong></div>
 
 	<!-- SLIDER SECTION ----------------------------------------------------------------------------------------------->
 
 	<div class="content-box">
-		<div id="slider">
-			<a class="control_next" onclick="moveRight();">&raquo;</a>
-			<ul>
-				<li>Slide 1</li>
-				<li>SLIDE 2</li>
-				<li>SLIDE 3</li>
-				<li>SLIDE 4</li>
-			</ul>
-			<a class="control_prev">&laquo;</a>
+		<img class="slide" src="img/slides/concert_girls.jpg">
+		<img class="slide" src="img/slides/concert_raymond.jpg">
+		<img class="slide" src="img/slides/concert_violin.jpg">
+		<img class="slide" src="img/slides/concert_maguire.jpg">
+		<div style="width:100%;">
+			<div class="sliderBtnL" onclick="slider_next(-1)">&#10094;</div>
+			<div class="sliderBtnR" onclick="slider_next(1)">&#10095;</div>
+			<span class="slideBar" onclick="slider_curr(1)"></span>
+			<span class="slideBar" onclick="slider_curr(2)"></span>
+			<span class="slideBar" onclick="slider_curr(3)"></span>
+			<span class="slideBar" onclick="slider_curr(4)"></span>
 		</div>
 	</div>
+
+	<script src="js/slider.js"></script>
 
 	<!-- CONTACT SECTION ---------------------------------------------------------------------------------------------->
 

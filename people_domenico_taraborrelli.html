@@ -2,29 +2,52 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Barrier Reef Orchestra - Domenico Taraborrelli</title>
+<title>Barrier Reef Orchestra - Richard McIntyre</title>
 
-<link href="css/default.css" rel="stylesheet" type="text/css">
+	<link href="css/default.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<link href="css/header.css" rel="stylesheet" type="text/css">
+	<script src="js/header.js"></script>
+
+	<link href="css/slider.css" rel="stylesheet" type="text/css">
+	<script src="js/slider.js"></script>
+</head>
 
 <body>
 
 <div class="header">
 	<div class="header-container">
-		<img src="img/tpl/header.jpg" width="900" height="173" alt="Barrier Reef Orchestra" />
-		<ul class="header-nav float-left">
-			<li class="header-nav-item"><a href="#">Home</a></li>
-			<li class="header-nav-item"><a href="#">Events</a></li>
-			<li class="header-nav-item"><a href="people.html" class="hovered">People</a></li>
-			<li class="header-nav-item"><a href="#">Gallery</a></li>
-		</ul>
-		<ul class="header-nav float-right">
-			<li class="header-nav-item"><a href="about.html">About Us</a></li>
-			<li class="header-nav-item"><a href="#">Contact Us</a></li>
-		</ul>
+		<div class="header-banner" id="header_banner"></div>
+		<div class="header-menu" id="header_menus" style="margin-left: auto;">
+			<div><a id="header_button"><img src="img/tpl/burger.gif" width="20" height="20" title="Menu"></a></div>
+			<div class="header-drop" id="header_drop">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="people.html" class="hovered">People</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="about.html" >About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header-links" id="header_links">
+			<ul class="float-left">
+				<li><a href="#">Home</a></li>
+				<li><a href="events.html">Events</a></li>
+				<li><a href="people.html" class="hovered">People</a></li>
+				<li><a href="#">Gallery</a></li>
+			</ul>
+			<ul class="float-right">
+				<li><a href="sponsors.html" >Sponsors</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
 	</div>
 </div>
-
-<div class="content">
+<div class="header-gap"></div>
 
 	<div class="nav-box">
 		<p><b><a href="#">BRO</a> / <a href="people.html">People</a> / Domenico Taraborrelli &raquo;</b></p>
@@ -66,22 +89,10 @@
 
 <div class="footer">
 	<p>Copyright Barrier Reef Orchestra, 2017. All rights reserved.</p>
-	<div class="sponsor-thumb"><img src="img/sponsors/acv_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/afcm_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/asap_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/bunnings_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/cowboys_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/groovy_graphics_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/kaptiv2_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/kaptiv_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/keyboard_shop_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/qunickel_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/racq_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/rsl_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/soe_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/sturt_business_centre_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/ticketshop_sponsor.jpg" /></div>
-	<div class="sponsor-thumb"><img src="img/sponsors/townsville_sponsor.jpg" /></div>
+	
+	<div class="footer-icon">
+		<a href="https://www.facebook.com/nqorchestra/"><img src="img/facebook-icon.png">	</a><a href="mailto:brotownsville@gmail.com"><img src="img/Mail-icon.png"</a>
+	
 </div>
 
 	</body>
